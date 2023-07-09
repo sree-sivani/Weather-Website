@@ -10,12 +10,10 @@ async function checkWeather (city){
     if(response.status == 404){
         document.querySelector(".error").style.display = "block";
         document.querySelector(".vals").style.display = "none";
-    }else{
+    }
+    
+    else{
     var data = await response.json();
-
-
-    console.log(data);
-
     document.querySelector('.city-name').innerHTML = data.name;
     document.querySelector('.temp').innerHTML = Math.round(data.main.temp) + "°C";
     document.querySelector('.humidity').innerHTML = data.main.humidity + " %";
