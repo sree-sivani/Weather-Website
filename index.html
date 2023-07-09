@@ -16,30 +16,34 @@
         <input
           type="text"
           name="searchbar"
-          id="search-bar"
+          class="search-bar"
           placeholder="Enter City Name"
         />
         <button class="search-btn">
           <i class="fa fa-search"></i>
         </button>
       </div>
-      <img src="images/clear.png" alt="" />
-      <h1 class="js-temp-result temp">24°C</h1>
-      <h2 class="city-name">Bengaluru</h2>
+      <span class="vals">
+        <img src="images/clear.png" alt="" class="weather-icon" />
+        <h1 class="js-temp-result temp"></h1>
+        <h2 class="city-name"></h2>
 
-      <div class="other-info">
-        <img src="images/humidity.png" alt="" class="img" />
-        <div class="humidity-values">
-          <p class="h-percentage value">48%</p>
-          <p class="category">Humidity</p>
-        </div>
+        <div class="other-info">
+          <img src="images/humidity.png" alt="" class="img" />
+          <div class="humidity-values">
+            <p class="humidity value"></p>
+            <p class="category">Humidity</p>
+          </div>
 
-        <img src="images/wind.png" class="img" alt="" />
-        <div class="wind-values">
-          <p class="w-percentage value">10.29 km/h</p>
-          <p class="category">Wind Speed</p>
+          <div class="wind">
+            <img src="images/wind.png" class="img wind-img" alt="" />
+            <div class="wind-values">
+              <p class="windspeed value"></p>
+              <p class="category">Wind Speed</p>
+            </div>
+          </div>
         </div>
-      </div>
+      </span>
     </div>
     <script src="script.js"></script>
   </body>

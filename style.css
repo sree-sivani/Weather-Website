@@ -1,87 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Hind+Siliguri:wght@300;400;500&family=Poppins:wght@400;700&family=Recursive:wght@300;400;500;700&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Hind+Siliguri:wght@300;400;500&family=Poppins:wght@400;700&family=Recursive:wght@300;400;500;700&display=swap');
 
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgba(20, 19, 19, .9);
-    font-family : Recursive;
-    color : #fff;
+    font-family: Recursive;
+    color: #fff;
 }
 
-.card{
-    background : linear-gradient(135deg, #00feba, #5b548a);
-    width : 30%;
-    height : 100%;
+.card {
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    width: 30%;
+    height: 100%;
     /* height: 500px; */
     text-align: center;
-    margin : 5rem auto;
+    margin: 5rem auto;
     /* width: 500px; */
     border-radius: 2vh;
-    display : flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
-.search{
+.search {
     display: flex;
-    width : 100%;
+    width: 100%;
     align-items: center;
     justify-content: space-evenly;
-margin-top : 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-#search-bar{
-    border-radius : 20px;
+.search-bar {
+    border-radius: 20px;
     background-color: #fff;
-    padding : 13px;
-    margin-right : 5px;
+    padding: 13px;
+    margin-right: 5px;
     align-self: flex-start;
-    border : none;
-    height : 2.4rem;
-    width : 70%;
+    border: none;
+    height: 2.4rem;
+    width: 70%;
 
 }
 
-.search-btn{
-    border-radius : 50%;
+.search-btn {
+    border-radius: 50%;
     background-color: aliceblue;
-    width : 35px;
+    width: 35px;
     height: 35px;
-    border : none;
-    font-size : 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
 }
 
-.temp{
-    color : #fff;
-    font-size : 4rem;
+.temp {
+    color: #fff;
+    font-size: 4rem;
 
 }
 
-.other-info{
-    margin-top : 20px;
-    margin-bottom : 20px;
-    display : flex;
-    justify-content : space-around;
-    width : 80%;
+.city-name {
+    margin-bottom: 3vh;
 }
 
-.img{
-    height : 30px;
-    width : 30px; 
+.other-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* width: 80%; */
+    /* width : 100%;  */
+}
+.other-info a{
+    margin : 5px;
+}
+.img {
+    height: 30px;
+    width: 30px;
 }
 
-.value{
-    font-size : 20px;
-margin-bottom : 3px;
+.value {
+    font-size: 20px;
+    margin-bottom: 3px;
 }
 
-.category{
-    font-size : 10px;
+.category {
+    font-size: 10px;
+}
+
+.vals {
+    display: none;
+}
+
+
+.humidity-values{
+    margin-bottom: 5px;
+    
+}
+
+.wind{
+    display : inline-block;
+    margin-top : 3vh;
 }
