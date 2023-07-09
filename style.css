@@ -14,13 +14,11 @@ body {
 }
 
 .card {
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background: -webkit-linear-gradient(135deg, #F56217, #0B486B);  
     width: 30%;
     height: 100%;
-    /* height: 500px; */
     text-align: center;
     margin: 5rem auto;
-    /* width: 500px; */
     border-radius: 2vh;
     display: flex;
     flex-direction: column;
@@ -39,11 +37,16 @@ body {
 
 .search-bar {
     border-radius: 20px;
-    background-color: #fff;
+    background-color: lightslategray;
+    color : #fff;
+    font-family: poppins;
+    font-size : 2vh;
     padding: 13px;
     margin-right: 5px;
     align-self: flex-start;
-    border: none;
+    /* border: 2px solid slategrey;
+     */
+     border: none;
     height: 2.4rem;
     width: 70%;
 
@@ -72,21 +75,18 @@ body {
 .other-info {
     margin-top: 20px;
     margin-bottom: 20px;
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    /* width: 80%; */
-    /* width : 100%;  */
 }
 .other-info a{
     margin : 5px;
 }
 .img {
-    height: 30px;
-    width: 30px;
+    height: 24px;
+    width: 24px;
 }
-
+.line{
+    width : 100%;
+    color : #fff;
+}
 .value {
     font-size: 20px;
     margin-bottom: 3px;
