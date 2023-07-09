@@ -37,15 +37,13 @@ body {
 
 .search-bar {
     border-radius: 20px;
-    background-color: lightslategray;
+    background: lightslategray;
     color : #ffff;
     font-family: poppins;
     font-size : 2vh;
     padding: 13px;
     margin-right: 5px;
     align-self: flex-start;
-    /* border: 2px solid slategrey;
-     */
     border: none;
     height: 2.4rem;
     width: 70%;
@@ -62,7 +60,9 @@ body {
     font-size: 20px;
     cursor: pointer;
 }
-
+.search-btn:hover{
+    background-color: #ff9f70;
+}
 .temp {
     color: #fff;
     font-size: 4rem;
