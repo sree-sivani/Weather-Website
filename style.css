@@ -46,7 +46,7 @@ body {
     align-self: flex-start;
     /* border: 2px solid slategrey;
      */
-     border: none;
+    border: none;
     height: 2.4rem;
     width: 70%;
 
@@ -54,7 +54,8 @@ body {
 
 .search-btn {
     border-radius: 50%;
-    background-color: aliceblue;
+    background-color: rgb(125, 62, 40);
+    color : white;
     width: 35px;
     height: 35px;
     border: none;
