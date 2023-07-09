@@ -6,6 +6,11 @@ const searchBtn = document.querySelector('.search-btn');
 
 async function checkWeather (city){
     const response = await fetch(apiUrl + city + `&appid=${apiid}`);
+
+    if(response.status == 404){
+        document.querySelector(".error").style.display = "block";
+        document.querySelector(".vals").style.display = "none";
+    }else{
     var data = await response.json();
 
 
@@ -34,8 +39,9 @@ async function checkWeather (city){
     }
 
     document.querySelector(".vals").style.display = "block";
+    document.querySelector(".error").style.display = "none";
 }
-
+}
 searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 });
