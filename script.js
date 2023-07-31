@@ -10,6 +10,7 @@ async function checkWeather (city){
     if(response.status == 404){
         document.querySelector(".error").style.display = "block";
         document.querySelector(".vals").style.display = "none";
+        alert("Enter a Valid City Name");
     }
     
     else{
