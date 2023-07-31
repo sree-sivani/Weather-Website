@@ -44,4 +44,8 @@ searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 });
 
-
+function handleKeyDown(event){
+    if(event.key === 'Enter' || event.key === 'Enter + Shift'){
+        checkWeather(searchBox.value);
+    }
+}
