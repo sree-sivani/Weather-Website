@@ -12,6 +12,9 @@ body {
     font-family: Recursive;
     color: #fff;
 }
+::placeholder {
+    color: #fff;
+}
 
 .card {
     background: -webkit-linear-gradient(135deg, #F56217, #0B486B);  
